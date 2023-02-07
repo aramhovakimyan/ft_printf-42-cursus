@@ -3,6 +3,7 @@
 This is my implementation of the **printf** function from the standard library of the C programming language, as part of the 42 cursus.
 
 **Mandatory Parts**
+
 Handle conversions: c, s, p, d, i, u, x, X:
     • **%c** Prints a single character.
     • **%s** Prints a string (as defined by the common C convention).
@@ -15,10 +16,13 @@ Handle conversions: c, s, p, d, i, u, x, X:
     •  **%%** Prints a percent sign.
       
 **Bonus Parts**
+
 In addition to the mandatory parts, I have also implemented the space, #, + flags.
 
 **How to Use**
+
 To use the ft_printf function in your own project, simply include the header file **"ft_printf.h"** and compile the source files **"*.c"** along with your own project. The function can be used in the same way as the standard printf function.
+
 Example:
 ```
 #include "ft_printf.h"
@@ -29,5 +33,6 @@ int main()
 }
 ```
  **Conclusion**
+ 
 I hope you find my implementation of the **ft_printf** function to be useful. If you have any questions or comments, feel free to reach out to me.
 
